@@ -1,5 +1,5 @@
 # cvx-coder
-[Model](https://huggingface.co/tim1900/cvx-coder)
+[Huggingface](https://huggingface.co/tim1900/cvx-coder) | [魔搭社区](https://www.modelscope.cn/models/tommy1235/cvx-coder)
 
 ## Introduction
 
