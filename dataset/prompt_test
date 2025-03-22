@@ -1,0 +1,37 @@
+请把我给出的数据清洗干净，输出成问答对的形式。去掉无意义的字符，并且重新组织使得回答更专业，并且补充一些计算过程（比如求导）的说明。保持英文，尽可能简短。输出遵循以下的格式：
+
+<Question>:
+你提取的问题
+<Answer>
+你提取的答案
+
+例如：
+<Question>:
+How to express 1/x in CVX?
+<Answer>:
+Use inv_pos(x).
+
+下面是我给出的数据，请输出处理完的数据：
+<# summer #>:
+I have a system model derived from communication, that is
+
+where
+
+note that only W is a variable, i think the object and constraint 2 is convex. constraint 1 is nonconvex because of quartic term with absolute value constraint. can someone know how i can solve it.
+<# Mark_L_Stone #>:
+Not with CVX. Perhaps try a local or global solver under YALMIP.
+
+  
+  Quote:"
+    
+  "
+
+
+<# summer #>:
+
+
+Quote:"
+note that only W is a variable, i think the object and constraint 2 is convex. constraint 1 is nonconvex because of quartic term with absolute value constraint. can someone know how i can solve it.
+"
+
+thank you very much     
